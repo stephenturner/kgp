@@ -7,5 +7,6 @@
 ## Test environments
 
 - Local R installation, R 4.2.0
-- r-hub: Windows Server 2022, R-oldrel, 32/64 bit
-- win-builder: using R version 4.2.1 (2022-06-23 ucrt) using platform: x86_64-w64-mingw32 (64-bit)
+- r-hub: Windows Server 2022, R-devel, 64 bit
+- r-hub: Ubuntu Linux 20.04.1 LTS, R-release, GCC
+- r-hub: Fedora Linux, R-devel, clang, gfortran
