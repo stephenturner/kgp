@@ -12,6 +12,7 @@ Metadata for samples collected and sequenced for the 1000 Genomes Project.
 Useful links:
 \itemize{
   \item \url{https://github.com/stephenturner/kgp}
+  \item \url{https://stephenturner.github.io/kgp/}
 }
 
 }
