@@ -9,8 +9,10 @@
 status](https://www.r-pkg.org/badges/version/kgp)](https://CRAN.R-project.org/package=kgp)
 <!-- badges: end -->
 
-The goal of kgp is to provide data about samples and metadata about
-populations from the 1000 Genomes Project data.
+This kgp data package provides metadata about populations and data about
+samples from the 1000 Genomes Project, including the 2,504 samples
+sequenced for the Phase 3 release and the expanded collection of 3,202
+samples with 602 additional trios.
 
 ## Installation
 

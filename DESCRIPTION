@@ -3,9 +3,8 @@ Type: Package
 Title: 1000 Genomes Project Metadata
 Version: 1.0.0
 Authors@R: person("Stephen", "Turner", email = "vustephen@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9140-9028"))
-Description: Metadata for samples collected and sequenced for the 1000 Genomes Project. 
-URL: https://github.com/stephenturner/kgp,
-    https://stephenturner.github.io/kgp/
+Description: This data package provides metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios.
+URL: https://github.com/stephenturner/kgp, https://stephenturner.github.io/kgp/
 License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true

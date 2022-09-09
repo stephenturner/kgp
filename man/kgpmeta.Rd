@@ -27,6 +27,6 @@ Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expan
 
 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 
-License information available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}
+License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
 }
 \keyword{datasets}
