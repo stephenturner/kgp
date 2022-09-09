@@ -40,16 +40,15 @@ Genomes FTP site](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/) and
 [GitHub](https://github.com/igsr/1000Genomes_data_indexes/).
 
 -   Pilot publication: [An integrated map of genetic variation from
-    1,092 human
-    genomes](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3498066/)
+    1,092 human genomes](https://www.nature.com/articles/nature11632)
 -   Phase 1 publication: [A map of human genome variation from
     population scale
-    sequencing](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042601/)
+    sequencing](https://www.nature.com/articles/nature09534)
 -   Phase 3 publication: [A global reference for human genetic
-    variation](http://www.nature.com/nature/journal/v526/n7571/full/nature15393.html)
+    variation](https://www.nature.com/articles/nature15393)
 -   Expanded high-coverage publication: [High-coverage whole-genome
     sequencing of the expanded 1000 Genomes Project cohort including 602
-    trios](https://www.cell.com/cell/fulltext/S0092-8674(22)00991-6)
+    trios](https://pubmed.ncbi.nlm.nih.gov/36055201/)
 
 There are three data sets available in the kgp package.
 
