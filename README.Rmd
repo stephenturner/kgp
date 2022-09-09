@@ -36,14 +36,68 @@ You can install the development version of kgp from [GitHub](https://github.com/
 devtools::install_github("stephenturner/kgp")
 ```
 
-## Example
+## About the data
 
-This is a basic example which shows you how to solve a common problem:
+The 1000 Genomes Project data Phase 3 data contains 2,504 samples with sequence data available, and was later expanded to 3,202 samples with high coverage adding 602 trios. Data is available through the [1000 Genomes FTP site](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/) and [GitHub](https://github.com/igsr/1000Genomes_data_indexes/). 
+
+- Pilot publication: [An integrated map of genetic variation from 1,092 human genomes](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3498066/)
+- Phase 1 publication: [A map of human genome variation from population scale sequencing](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042601/)
+- Phase 3 publication: [A global reference for human genetic variation](http://www.nature.com/nature/journal/v526/n7571/full/nature15393.html)
+- Expanded high-coverage publication: [High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios](https://www.cell.com/cell/fulltext/S0092-8674(22)00991-6)
+
+There are three data sets available in the kgp package.
 
 ```{r example}
 library(kgp)
-## basic example code
+data(kgp)
 ```
 
+The `kgp3` data contains pedigree and population information for the 2,504 samples included in the Phase 3 release of the 1000 Genomes Project data.
 
-<!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>. -->
+```{r}
+kgp3
+```
+
+The `kgpe` data contains pedigree and population information all 3,202 samples included in the expanded 1000 Genomes Project data, which includes 602 trios.
+
+```{r}
+kgpe
+```
+
+The `kgpmeta` contains population metadata for the 26 populations across five continental regions.
+
+```{r}
+kgpmeta
+```
+
+## Examples
+
+```{r, message=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+library(kgp)
+data(kgp)
+```
+
+```{r}
+kgp3 %>% 
+  count(region)
+```
+
+```{r}
+kgp3 %>% 
+  count(region, population)
+```
+
+```{r kgp3barplot, fig.width=9, fig.height=12}
+kgp3 %>% 
+  count(region, population) %>% 
+  arrange(region, n) %>% 
+  mutate(population=forcats::fct_inorder(population)) %>% 
+  ggplot(aes(population, n)) + 
+  geom_col(aes(fill=region)) + 
+  labs(fill=NULL, x=NULL, x="N") + 
+  coord_flip() + 
+  theme_bw() + 
+  theme(legend.position="bottom")
+```
