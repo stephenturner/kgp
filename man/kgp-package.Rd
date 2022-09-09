@@ -6,12 +6,13 @@
 \alias{kgp-package}
 \title{kgp: 1000 Genomes Project Metadata}
 \description{
-Metadata for samples collected and sequenced for the 1000 Genomes Project.
+This data package provides metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/stephenturner/kgp}
+  \item \url{https://stephenturner.github.io/kgp/}
 }
 
 }

@@ -26,11 +26,13 @@ A tibble with 2504 rows and 10 columns:
 kgp3
 }
 \description{
-Sample, pedigree, and population information for 2,504 samples in the Phase 3 release of the 1000 Genomes Project data.
+Sample, pedigree, and population data for 2,504 samples in the Phase 3 release of the 1000 Genomes Project data.
 }
 \references{
 Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios." Cell 185.18 (2022): 3426-3440.
 
 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
+
+License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
 }
 \keyword{datasets}
