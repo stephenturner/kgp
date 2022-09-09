@@ -4,8 +4,13 @@ Title: 1000 Genomes Project Metadata
 Version: 1.0.0
 Authors@R: person("Stephen", "Turner", email = "vustephen@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9140-9028"))
 Description: Metadata for samples collected and sequenced for the 1000 Genomes Project. 
-URL: https://github.com/stephenturner/kgp
+URL: https://github.com/stephenturner/kgp,
+    https://stephenturner.github.io/kgp/
 License: Apache License (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    tibble
