@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Metadata for samples collected and sequenced for the 1000 Genomes Project. ">
+<meta name="description" content="This data package provides metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios.">
 <title>1000 Genomes Project Metadata • kgp</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.1.3/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.1.3/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- bootstrap-toc --><script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="1000 Genomes Project Metadata">
-<meta property="og:description" content="Metadata for samples collected and sequenced for the 1000 Genomes Project. ">
+<meta property="og:description" content="This data package provides metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -61,7 +61,7 @@
 <div class="page-header"><h1 id="kgp">kgp<a class="anchor" aria-label="anchor" href="#kgp"></a>
 </h1></div>
 <!-- badges: start -->
-<p>The goal of kgp is to provide data about samples and metadata about populations from the 1000 Genomes Project data.</p>
+<p>This kgp data package provides metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -74,13 +74,127 @@
 <span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"stephenturner/kgp"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
+<h2 id="about-the-data">About the data<a class="anchor" aria-label="anchor" href="#about-the-data"></a>
 </h2>
-<p>This is a basic example which shows you how to solve a common problem:</p>
+<p>The 1000 Genomes Project data Phase 3 data contains 2,504 samples with sequence data available, and was later expanded to 3,202 samples with high coverage adding 602 trios. Data is available through the <a href="http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/" class="external-link">1000 Genomes FTP site</a> and <a href="https://github.com/igsr/1000Genomes_data_indexes/" class="external-link">GitHub</a>.</p>
+<ul>
+<li>Pilot publication: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3498066/" class="external-link">An integrated map of genetic variation from 1,092 human genomes</a>
+</li>
+<li>Phase 1 publication: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042601/" class="external-link">A map of human genome variation from population scale sequencing</a>
+</li>
+<li>Phase 3 publication: <a href="http://www.nature.com/nature/journal/v526/n7571/full/nature15393.html" class="external-link">A global reference for human genetic variation</a>
+</li>
+<li>Expanded high-coverage publication: <a href="https://www.cell.com/cell/fulltext/S0092-8674(22)00991-6" class="external-link">High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios</a>
+</li>
+</ul>
+<p>There are three data sets available in the kgp package.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/stephenturner/kgp" class="external-link">kgp</a></span><span class="op">)</span></span>
-<span><span class="co">## basic example code</span></span></code></pre></div>
-<!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>. -->
+<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">kgp</span><span class="op">)</span></span></code></pre></div>
+<p>The <code>kgp3</code> data contains pedigree and population information for the 2,504 samples included in the Phase 3 release of the 1000 Genomes Project data.</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">kgp3</span></span>
+<span><span class="co">#&gt; # A tibble: 2,504 × 10</span></span>
+<span><span class="co">#&gt;    fid     id      pid   mid     sex sexf   pop   reg   population        region</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;int&gt; &lt;fct&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt; </span></span>
+<span><span class="co">#&gt;  1 HG00096 HG00096 0     0         1 male   GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  2 HG00097 HG00097 0     0         2 female GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  3 HG00099 HG00099 0     0         2 female GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  4 HG00100 HG00100 0     0         2 female GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  5 HG00101 HG00101 0     0         1 male   GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  6 HG00102 HG00102 0     0         2 female GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  7 HG00103 HG00103 0     0         1 male   GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  8 HG00105 HG00105 0     0         1 male   GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt;  9 HG00106 HG00106 0     0         2 female GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt; 10 HG00107 HG00107 0     0         1 male   GBR   EUR   British in Engla… Europ…</span></span>
+<span><span class="co">#&gt; # … with 2,494 more rows</span></span>
+<span><span class="co">#&gt; # ℹ Use `print(n = ...)` to see more rows</span></span></code></pre></div>
+<p>The <code>kgpe</code> data contains pedigree and population information all 3,202 samples included in the expanded 1000 Genomes Project data, which includes 602 trios.</p>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">kgpe</span></span>
+<span><span class="co">#&gt; # A tibble: 3,202 × 11</span></span>
+<span><span class="co">#&gt;    fid     id      pid   mid     sex sexf   pop   reg   population region phase3</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt; &lt;int&gt; &lt;fct&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;      &lt;chr&gt;  &lt;lgl&gt; </span></span>
+<span><span class="co">#&gt;  1 HG00096 HG00096 0     0         1 male   GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  2 HG00097 HG00097 0     0         2 female GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  3 HG00099 HG00099 0     0         2 female GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  4 HG00100 HG00100 0     0         2 female GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  5 HG00101 HG00101 0     0         1 male   GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  6 HG00102 HG00102 0     0         2 female GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  7 HG00103 HG00103 0     0         1 male   GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  8 HG00105 HG00105 0     0         1 male   GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt;  9 HG00106 HG00106 0     0         2 female GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt; 10 HG00107 HG00107 0     0         1 male   GBR   EUR   British i… Europ… TRUE  </span></span>
+<span><span class="co">#&gt; # … with 3,192 more rows</span></span>
+<span><span class="co">#&gt; # ℹ Use `print(n = ...)` to see more rows</span></span></code></pre></div>
+<p>The <code>kgpmeta</code> contains population metadata for the 26 populations across five continental regions.</p>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">kgpmeta</span></span>
+<span><span class="co">#&gt; # A tibble: 26 × 4</span></span>
+<span><span class="co">#&gt;    pop   population                          reg   region     </span></span>
+<span><span class="co">#&gt;    &lt;chr&gt; &lt;chr&gt;                               &lt;chr&gt; &lt;chr&gt;      </span></span>
+<span><span class="co">#&gt;  1 CDX   Chinese Dai in Xishuangbanna, China EAS   East Asian </span></span>
+<span><span class="co">#&gt;  2 CHB   Han Chinese in Bejing, China        EAS   East Asian </span></span>
+<span><span class="co">#&gt;  3 JPT   Japanese in Tokyo, Japan            EAS   East Asian </span></span>
+<span><span class="co">#&gt;  4 KHV   Kinh in Ho Chi Minh City, Vietnam   EAS   East Asian </span></span>
+<span><span class="co">#&gt;  5 CHS   Southern Han Chinese, China         EAS   East Asian </span></span>
+<span><span class="co">#&gt;  6 BEB   Bengali in Bangladesh               SAS   South Asian</span></span>
+<span><span class="co">#&gt;  7 GIH   Gujarati Indian in Houston,TX       SAS   South Asian</span></span>
+<span><span class="co">#&gt;  8 ITU   Indian Telugu in the UK             SAS   South Asian</span></span>
+<span><span class="co">#&gt;  9 PJL   Punjabi in Lahore,Pakistan          SAS   South Asian</span></span>
+<span><span class="co">#&gt; 10 STU   Sri Lankan Tamil in the UK          SAS   South Asian</span></span>
+<span><span class="co">#&gt; # … with 16 more rows</span></span>
+<span><span class="co">#&gt; # ℹ Use `print(n = ...)` to see more rows</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
+</h2>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/stephenturner/kgp" class="external-link">kgp</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">kgp</span><span class="op">)</span></span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">kgp3</span> <span class="op">%&gt;%</span> </span>
+<span>  <span class="fu">count</span><span class="op">(</span><span class="va">region</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 5 × 2</span></span>
+<span><span class="co">#&gt;   region          n</span></span>
+<span><span class="co">#&gt;   &lt;chr&gt;       &lt;int&gt;</span></span>
+<span><span class="co">#&gt; 1 African       661</span></span>
+<span><span class="co">#&gt; 2 American      347</span></span>
+<span><span class="co">#&gt; 3 East Asian    504</span></span>
+<span><span class="co">#&gt; 4 European      503</span></span>
+<span><span class="co">#&gt; 5 South Asian   489</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">kgp3</span> <span class="op">%&gt;%</span> </span>
+<span>  <span class="fu">count</span><span class="op">(</span><span class="va">region</span>, <span class="va">population</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 26 × 3</span></span>
+<span><span class="co">#&gt;    region   population                                      n</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                                       &lt;int&gt;</span></span>
+<span><span class="co">#&gt;  1 African  African Ancestry in Southwest US               61</span></span>
+<span><span class="co">#&gt;  2 African  African Caribbean in Barbados                  96</span></span>
+<span><span class="co">#&gt;  3 African  Esan in Nigeria                                99</span></span>
+<span><span class="co">#&gt;  4 African  Gambian in Western Division, The Gambia       113</span></span>
+<span><span class="co">#&gt;  5 African  Luhya in Webuye, Kenya                         99</span></span>
+<span><span class="co">#&gt;  6 African  Mende in Sierra Leone                          85</span></span>
+<span><span class="co">#&gt;  7 African  Yoruba in Ibadan, Nigeria                     108</span></span>
+<span><span class="co">#&gt;  8 American Colombian in Medellin, Colombia                94</span></span>
+<span><span class="co">#&gt;  9 American Mexican Ancestry in Los Angeles, California    64</span></span>
+<span><span class="co">#&gt; 10 American Peruvian in Lima, Peru                         85</span></span>
+<span><span class="co">#&gt; # … with 16 more rows</span></span>
+<span><span class="co">#&gt; # ℹ Use `print(n = ...)` to see more rows</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="va">kgp3</span> <span class="op">%&gt;%</span> </span>
+<span>  <span class="fu">count</span><span class="op">(</span><span class="va">region</span>, <span class="va">population</span><span class="op">)</span> <span class="op">%&gt;%</span> </span>
+<span>  <span class="fu">arrange</span><span class="op">(</span><span class="va">region</span>, <span class="va">n</span><span class="op">)</span> <span class="op">%&gt;%</span> </span>
+<span>  <span class="fu">mutate</span><span class="op">(</span>population<span class="op">=</span><span class="fu">forcats</span><span class="fu">::</span><span class="fu">fct_inorder</span><span class="op">(</span><span class="va">population</span><span class="op">)</span><span class="op">)</span> <span class="op">%&gt;%</span> </span>
+<span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span><span class="va">population</span>, <span class="va">n</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu">geom_col</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>fill<span class="op">=</span><span class="va">region</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu">labs</span><span class="op">(</span>fill<span class="op">=</span><span class="cn">NULL</span>, x<span class="op">=</span><span class="cn">NULL</span>, x<span class="op">=</span><span class="st">"N"</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu">coord_flip</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu">theme_bw</span><span class="op">(</span><span class="op">)</span> <span class="op">+</span> </span>
+<span>  <span class="fu">theme</span><span class="op">(</span>legend.position<span class="op">=</span><span class="st">"bottom"</span><span class="op">)</span></span></code></pre></div>
+<p><img src="reference/figures/README-kgp3barplot-1.png" width="100%"></p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
