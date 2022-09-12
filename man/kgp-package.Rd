@@ -6,7 +6,7 @@
 \alias{kgp-package}
 \title{kgp: 1000 Genomes Project Metadata}
 \description{
-This data package provides metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios.
+Metadata about populations and data about samples from the 1000 Genomes Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded collection of 3,202 samples with 602 additional trios. The data is described in Auton et al. (2015) \doi{10.1038/nature15393} and Byrska-Bishop et al. (2022) \doi{10.1016/j.cell.2022.08.004}, and raw data is available at \url{http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/}.
 }
 \seealso{
 Useful links:
