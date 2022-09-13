@@ -9,3 +9,4 @@
 ^pkgdown$
 ^\.github$
 ^CRAN-SUBMISSION$
+^CITATION\.cff$

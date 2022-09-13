@@ -1,0 +1,67 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.2.3
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "kgp" in publications use:'
+type: software
+license: Apache-2.0
+title: 'kgp: 1000 Genomes Project Metadata'
+version: 1.0.0
+abstract: Metadata about populations and data about samples from the 1000 Genomes
+  Project, including the 2,504 samples sequenced for the Phase 3 release and the expanded
+  collection of 3,202 samples with 602 additional trios. The data is described in
+  Auton et al. (2015) <doi:10.1038/nature15393> and Byrska-Bishop et al. (2022) <doi:10.1016/j.cell.2022.08.004>,
+  and raw data is available at <http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/>.
+authors:
+- family-names: Turner
+  given-names: Stephen
+  email: vustephen@gmail.com
+  orcid: https://orcid.org/0000-0001-9140-9028
+preferred-citation:
+  type: manual
+  title: 'kgp: 1000 Genomes Project Metadata'
+  authors:
+  - family-names: Turner
+    given-names: Stephen
+    email: vustephen@gmail.com
+    orcid: https://orcid.org/0000-0001-9140-9028
+  version: 1.0.0
+  abstract: Metadata about populations and data about samples from the 1000 Genomes
+    Project, including the 2,504 samples sequenced for the Phase 3 release and the
+    expanded collection of 3,202 samples with 602 additional trios. The data is described
+    in Auton et al. (2015) <doi:10.1038/nature15393> and Byrska-Bishop et al. (2022)
+    <doi:10.1016/j.cell.2022.08.004>, and raw data is available at <http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/>.
+  repository-code: https://github.com/stephenturner/kgp
+  url: https://stephenturner.github.io/kgp/
+  contact:
+  - family-names: Turner
+    given-names: Stephen
+    email: vustephen@gmail.com
+    orcid: https://orcid.org/0000-0001-9140-9028
+  keywords:
+  - 1000genomes
+  - bioinformatics
+  - genetics
+  - genomics
+  - metadata
+  - population-genetics
+  - sequencing
+  license: Apache-2.0
+  year: '2022'
+repository-code: https://github.com/stephenturner/kgp
+url: https://stephenturner.github.io/kgp/
+contact:
+- family-names: Turner
+  given-names: Stephen
+  email: vustephen@gmail.com
+  orcid: https://orcid.org/0000-0001-9140-9028
+keywords:
+- 1000genomes
+- bioinformatics
+- genetics
+- genomics
+- metadata
+- population-genetics
+- sequencing
