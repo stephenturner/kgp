@@ -1,0 +1,213 @@
+Population code	Population elastic ID	Population name	Population description	Population latitude	Population longitude	Superpopulation code	Superpopulation name	Superpopulation display colour	Superpopulation display order	Data collections
+FIN	FIN	Finnish	Finnish in Finland	60.170000	24.930000	EUR	European Ancestry	#018ead	4	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+CHS	CHS	Southern Han Chinese	Han Chinese South	23.133330	113.266667	EAS	East Asian Ancestry	#778500	3	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,The Human Genome Structural Variation Consortium,1000 Genomes phase 3 release,1000 Genomes phase 1 release,90 Han Chinese high coverage genomes
+KHV	KHV	Kinh Vietnamese	Kinh in Ho Chi Minh City, Vietnam	10.780000	106.680000	EAS	East Asian Ancestry	#778500	3	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+BEB	BEB	Bengali	Bengali in Bangladesh	23.700000	90.350000	SAS	South Asian Ancestry	#c44cfd	5	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+PUR	PUR	Puerto Rican	Puerto Rican in Puerto Rico	18.400000	-66.100000	AMR	American Ancestry	#710027	2	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,The Human Genome Structural Variation Consortium,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+ACB	ACB	African Caribbean	African Caribbean in Barbados	13.100000	-59.620000	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+GWW	GWW	Gambian Wolof	Gambian in Western Division, The Gambia - Wolof	13.454876	-16.579032	AFR	African Ancestry	#ffd845	1	Gambian Genome Variation Project (GRCh37),Gambian Genome Variation Project (GRCh38)
+	BalochiHGDP	Balochi	Balochi in Pakistan (HGDP)	30.500000	66.500000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	BantuKenyaHGDP	Bantu Kenya	Bantu in Kenya (HGDP)	-3.000000	37.000000		Africa (HGDP)	#f2c2ff	6	Human Genome Diversity Project
+	BantuSouthAfricaHGDP	Bantu South Africa	Bantu in South Africa (HGDP)	-25.600000	24.250000		Africa (HGDP)	#f2c2ff	6	Human Genome Diversity Project
+	BergamoItalianHGDP	Bergamo Italian	Bergamo Italian in Bergamo, Italy (HGDP)	46.000000	10.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	ColombianHGDP	Colombian	Colombian in Colombia (HGDP)	3.000000	-68.000000		America (HGDP)	#ff9081	7	Human Genome Diversity Project
+	DaurHGDP	Daur	Daur in China (HGDP)	48.500000	124.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	BengaliSGDP	Bengali	Bengali in Bangladesh (SGDP)	23.700000	90.400000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	BiakaSGDP	Biaka	Biaka in Central African Republic (SGDP)	4.000000	17.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+ASW	ASW	African Ancestry SW	African Ancestry in Southwest US	35.483000	-97.533330	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+	MansiSGDP	Mansi	Mansi in Russia (SGDP)	63.725000	61.775000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	AdygeiHGDP	Adygei	Adygei in Caucasus, Russia (HGDP)	44.000000	39.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	HazaraSGDP	Hazara	Hazara in Pakistan (SGDP)	33.500000	70.000000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	BasqueHGDP	Basque	Basque in France (HGDP)	43.000000	0.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	ThaiSGDP	Thai	Thai in Thailand (SGDP)	13.800000	100.500000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	BedouinHGDP	Bedouin	Bedouin in Negev, Israel (HGDP)	31.000000	35.000000		Middle East (HGDP)	#4e2100	11	Human Genome Diversity Project
+	TurkishSGDP	Turkish	Turkish in Turkey (SGDP)	38.700000	35.500000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	BurushoHGDP	Burusho	Burusho in Pakistan (HGDP)	36.500000	74.000000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	MixtecSGDP	Mixtec	Mixtec in Mexico (SGDP)	17.000000	-97.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	KapuSGDP	Kapu	Kapu in India (SGDP)	17.700000	83.300000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	KalashHGDP	Kalash	Kalash in Pakistan (HGDP)	36.000000	71.500000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	OroqenHGDP	Oroqen	Oroqen in China (HGDP)	50.400000	126.500000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	PapuanSepikHGDP	Papuan Sepik	Papuan Sepik in New Guinea (HGDP)	-4.000000	143.000000		Oceania (HGDP)	#001991	12	Human Genome Diversity Project
+	SanHGDP	San	San in Namibia (HGDP)	-21.000000	20.000000		Africa (HGDP)	#f2c2ff	6	HGDP Transcriptome,Human Genome Diversity Project
+	SardinianHGDP	Sardinian	Sardinian in Italy (HGDP)	40.000000	9.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	SindhiHGDP	Sindhi	Sindhi in Pakistan (HGDP)	25.500000	69.000000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	SuruiHGDP	Surui	Surui in Brazil (HGDP)	-11.000000	-62.000000		America (HGDP)	#ff9081	7	Human Genome Diversity Project
+	TuHGDP	Tu	Tu in China (HGDP)	36.000000	101.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	TujiaHGDP	Tujia	Tujia in China (HGDP)	29.000000	109.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	TuscanHGDP	Tuscan	Tuscan in Italy (HGDP)	43.000000	11.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	XiboHGDP	Xibo	Xibo in China (HGDP)	43.500000	81.500000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	MozabiteSGDP	Mozabite	Mozabite in Algeria (SGDP)	32.000000	3.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	YakutHGDP	Yakut	Yakut in Siberia (HGDP)	63.000000	129.500000		East Asia (HGDP)	#b35200	9	HGDP Transcriptome,Human Genome Diversity Project
+	ArmenianSGDP	Armenian	Armenian in Armenia (SGDP)	40.200000	44.500000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	PimaSGDP	Pima	Pima in Mexico (SGDP)	29.000000	-108.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	EvenSGDP	Even	Even in Russia (SGDP)	57.530000	135.880000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	LuhyaSGDP	Luhya	Luhya in Kenya (SGDP)	1.300000	36.800000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	JuhoanNorthSGDP	Ju|'hoan North	Ju|'hoan North in Namibia (SGDP)	-18.909314	21.488112		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	RussianSGDP	Russian	Russian in Russia (SGDP)	61.000000	40.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	UygurSGDP	Uygur	Uygur in China (SGDP)	44.000000	81.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	GreekSGDP	Greek	Greek in Greece (SGDP)	38.000000	23.700000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	KyrgyzSGDP	Kyrgyz	Kyrgyz in Kyrgyzystan (SGDP)	42.900000	74.600000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	BedouinBSGDP	Bedouin B	Bedouin B in Israel(Negev) (SGDP)	31.000000	35.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	YiSGDP	Yi	Yi in China (SGDP)	28.000000	103.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	AbkhasianSGDP	Abkhasian	Abkhasian in Abkhazia or Russia (SGDP)	43.000000	41.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	PunjabiSGDP	Punjabi	Punjabi in Pakistan (SGDP)	31.500000	74.300000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	DaiSGDP	Dai	Dai in China (SGDP)	21.000000	100.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	BulgarianSGDP	Bulgarian	Bulgarian in Bulgaria (SGDP)	42.200000	24.700000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	MixeSGDP	Mixe	Mixe in Mexico (SGDP)	16.950000	-96.580000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	BurmeseSGDP	Burmese	Burmese in Myanmar (SGDP)	17.000000	96.700000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	MbutiSGDP	Mbuti	Mbuti in Congo (SGDP)	1.000000	29.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	UlchiSGDP	Ulchi	Ulchi in Russia (SGDP)	52.400000	140.435000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	BrahuiSGDP	Brahui	Brahui in Pakistan (SGDP)	30.500000	66.500000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	ChukchiSGDP	Chukchi	Chukchi in Russia (SGDP)	69.000000	169.000000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	CambodianSGDP	Cambodian	Cambodian in Cambodia (SGDP)	12.000000	105.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	HawaiianSGDP	Hawaiian	Hawaiian in USA (SGDP)	21.300000	-157.800000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+	EskimoNaukanSGDP	Eskimo Naukan	Eskimo Naukan in Russia (SGDP)	66.020000	169.710000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	GambianSGDP	Gambian	Gambian in Gambia (SGDP)	13.400000	-16.700000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	MaoriSGDP	Maori	Maori in New Zealand (SGDP)	-41.300000	174.500000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+	YadavaSGDP	Yadava	Yadava in India (SGDP)	17.700000	83.300000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	SaharawiSGDP	Saharawi	Saharawi in Western Sahara (Morocco) (SGDP)	27.300000	-8.900000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	BrahminSGDP	Brahmin	Brahmin in India (SGDP)	17.700000	83.300000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	JapaneseSGDP	Japanese	Japanese in Japan (SGDP)	38.000000	138.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	MiaoSGDP	Miao	Miao in China (SGDP)	28.000000	109.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	HanSGDP	Han	Han in China (SGDP)	32.288556	114.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	EskimoSirenikiSGDP	Eskimo Sireniki	Eskimo Sireniki in Russia (SGDP)	64.400000	173.900000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	HungarianSGDP	Hungarian	Hungarian in Hungary (SGDP)	47.500000	19.100000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	AltaianSGDP	Altaian	Altaian in Russia (SGDP)	51.900000	86.000000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	FinnishSGDP	Finnish	Finnish in Finland (SGDP)	60.200000	24.900000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	IgorotSGDP	Igorot	Igorot in Philippines (SGDP)	17.100000	121.000000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+	AmiSGDP	Ami	Ami in Taiwan (SGDP)	22.843145	121.185356		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	HezhenSGDP	Hezhen	Hezhen in China (SGDP)	47.500000	133.500000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	OrcadianSGDP	Orcadian	Orcadian in Orkney Islands (SGDP)	59.000000	-3.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	KusundaSGDP	Kusunda	Kusunda in Nepal (SGDP)	28.072453	83.373633		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	AustralianSGDP	Australian	Australian in Australia (SGDP)	-13.000000	143.000000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+	TlingitSGDP	Tlingit	Tlingit in Russia (SGDP)	54.090000	162.325000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	QuechuaSGDP	Quechua	Quechua in Peru (SGDP)	-13.500000	-72.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	IraqiJewSGDP	Iraqi Jew	Iraqi Jew in Iraq (SGDP)	33.300000	44.400000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	BougainvilleSGDP	Bougainville	Bougainville in Papua New Guinea (SGDP)	-6.000000	155.000000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+	DruzeSGDP	Druze	Druze in Israel(Carmel) (SGDP)	32.000000	35.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	NorwegianSGDP	Norwegian	Norwegian in Norway (SGDP)	60.394300	5.325800		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	MongolaSGDP	Mongola	Mongola in China (SGDP)	45.000000	111.000000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	LahuHGDP	Lahu	Lahu in China (HGDP)	22.000000	100.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	MakraniHGDP	Makrani	Makrani in Pakistan (HGDP)	26.000000	64.000000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	NaxiHGDP	Naxi	Naxi in China (HGDP)	26.000000	100.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	MandenkaSGDP	Mandenka	Mandenka in Senegal (SGDP)	12.000000	-12.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	AlbanianSGDP	Albanian	Albanian in Albania (SGDP)	41.300000	19.800000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+YRI	YRI	Yoruba	Yoruba in Ibadan, Nigeria	7.400000	3.920000	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,The Human Genome Structural Variation Consortium,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+GWD	GWD	Gambian Mandinka	Gambian in Western Division, The Gambia - Mandinka	13.454876	-16.579032	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Gambian Genome Variation Project (GRCh37),Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,Gambian Genome Variation Project (GRCh38)
+JPT	JPT	Japanese	Japanese in Tokyo, Japan	35.680000	139.680000	EAS	East Asian Ancestry	#778500	3	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+MSL	MSL	Mende	Mende in Sierra Leone	8.480000	-13.230000	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+CEU	CEU	CEPH	Utah residents (CEPH) with Northern and Western European ancestry	40.767000	-111.890400	EUR	European Ancestry	#018ead	4	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Illumina Platinum pedigree,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+ESN	ESN	Esan	Esan in Nigeria	9.066660	7.483333	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+CHB	CHB	Han Chinese	Han Chinese in Beijing, China	39.916666	116.383333	EAS	East Asian Ancestry	#778500	3	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release,90 Han Chinese high coverage genomes
+CLM	CLM	Colombian	Colombian in Medellin, Colombia	4.583330	-74.066666	AMR	American Ancestry	#710027	2	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+CDX	CDX	Dai Chinese	Chinese Dai in Xishuangbanna, China	22.000000	100.780000	EAS	East Asian Ancestry	#778500	3	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release
+PEL	PEL	Peruvian	Peruvian in Lima, Peru	-12.040000	-77.030000	AMR	American Ancestry	#710027	2	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+PJL	PJL	Punjabi	Punjabi in Lahore, Pakistan	31.554606	74.357158	SAS	South Asian Ancestry	#c44cfd	5	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release
+IBS	IBS	Iberian	Iberian populations in Spain	40.380000	-3.720000	EUR	European Ancestry	#018ead	4	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+TSI	TSI	Toscani	Toscani in Italy	42.100000	12.000000	EUR	European Ancestry	#018ead	4	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+MXL	MXL	Mexican Ancestry	Mexican Ancestry in Los Angeles, California	34.054400	-118.243900	AMR	American Ancestry	#710027	2	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+	BougainvilleHGDP	Bougainville	Bougainville in Bougainville (HGDP)	-6.000000	155.000000		Oceania (HGDP)	#001991	12	Human Genome Diversity Project
+	FrenchHGDP	French	French in France (HGDP)	46.000000	2.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	MiaoHGDP	Miao	Miao in China (HGDP)	28.000000	109.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	HanHGDP	Han	Han in China (HGDP)	32.300000	114.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	MozabiteHGDP	Mozabite	Mozabite in Mzab, Algeria (HGDP)	32.000000	3.000000		Middle East (HGDP)	#4e2100	11	HGDP Transcriptome,Human Genome Diversity Project
+	NorthernHanHGDP	Northern Han	Northern Han in China (HGDP)	32.300000	114.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	PapuanHighlandsHGDP	Papuan Highlands	Papuan Highlands in New Guinea (HGDP)	-4.000000	143.000000		Oceania (HGDP)	#001991	12	Human Genome Diversity Project
+	PathanHGDP	Pathan	Pathan in Pakistan (HGDP)	33.500000	70.500000		Central South Asia (HGDP)	#d8ffdf	8	HGDP Transcriptome,Human Genome Diversity Project
+LWK	LWK	Luhya	Luhya in Webuye, Kenya	-1.270000	36.610000	AFR	African Ancestry	#ffd845	1	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release,1000 Genomes phase 1 release
+	EnglishSGDP	English	English in England (SGDP)	51.200000	0.700000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	JapaneseHGDP	Japanese	Japanese in Japan (HGDP)	38.000000	138.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	TuscanSGDP	Tuscan	Tuscan in Italy(Tuscany) (SGDP)	43.000000	11.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	KaritianaHGDP	Karitiana	Karitiana in Brazil (HGDP)	-10.000000	-63.000000		America (HGDP)	#ff9081	7	Human Genome Diversity Project
+	SomaliSGDP	Somali	Somali in Kenya (SGDP)	5.600000	48.300000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	MayaHGDP	Maya	Maya in Mexico (HGDP)	19.000000	-91.000000		America (HGDP)	#ff9081	7	HGDP Transcriptome,Human Genome Diversity Project
+	LuoSGDP	Luo	Luo in Kenya (SGDP)	-0.100000	34.300000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	MbutiHGDP	Mbuti	Mbuti in Democratic Republic of Congo (HGDP)	1.000000	29.000000		Africa (HGDP)	#f2c2ff	6	HGDP Transcriptome,Human Genome Diversity Project
+	BantuHereroSGDP	Bantu Herero	Bantu Herero in Botswana Or Namibia (SGDP)	-22.000000	19.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	PalestinianHGDP	Palestinian	Palestinian in Central, Israel (HGDP)	32.000000	35.000000		Middle East (HGDP)	#4e2100	11	Human Genome Diversity Project
+	MayanSGDP	Mayan	Mayan in Mexico (SGDP)	19.000000	-91.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	PimaHGDP	Pima	Pima in Mexico (HGDP)	29.000000	-108.000000		America (HGDP)	#ff9081	7	Human Genome Diversity Project
+	TuSGDP	Tu	Tu in China (SGDP)	36.000000	101.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	PolishSGDP	Polish	Polish in Poland (SGDP)	52.200000	21.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	DaurSGDP	Daur	Daur in China (SGDP)	48.500000	124.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	YakutSGDP	Yakut	Yakut in Russia (SGDP)	63.000000	129.500000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	KaritianaSGDP	Karitiana	Karitiana in Brazil (SGDP)	-10.000000	-63.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	ChechenSGDP	Chechen	Chechen in Russia (SGDP)	43.300000	45.700000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	EskimoChaplinSGDP	Eskimo Chaplin	Eskimo Chaplin in Russia (SGDP)	64.480000	172.860000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	PapuanSGDP	Papuan	Papuan in Papua New Guinea (SGDP)	-4.000000	143.000000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+	YorubaSGDP	Yoruba	Yoruba in Nigeria (SGDP)	7.400000	3.900000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	DusunSGDP	Dusun	Dusun in Brunei (SGDP)	4.700000	114.700000		Oceania (SGDP)	#34afff	17	Simons Genome Diversity Project
+GIH	GIH	Gujarati	Gujarati Indians in Houston, TX	29.758900	-95.367700	SAS	South Asian Ancestry	#c44cfd	5	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release
+	BantuTswanaSGDP	Bantu Tswana	Bantu Tswana in Botswana Or Namibia (SGDP)	-28.000000	24.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	ChaneSGDP	Chane	Chane in Argentina (SGDP)	-25.000000	-60.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	GeorgianSGDP	Georgian	Georgian in Georgia (SGDP)	42.500000	41.900000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	PalestinianSGDP	Palestinian	Palestinian in Israel(Central) (SGDP)	32.000000	35.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	PathanSGDP	Pathan	Pathan in Pakistan (SGDP)	33.500000	70.500000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	TajikSGDP	Tajik	Tajik in Tajikistan (SGDP)	37.600000	71.500000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	KoreanSGDP	Korean	Korean in Korea (SGDP)	37.600000	127.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	SaamiSGDP	Saami	Saami in Finland (SGDP)	69.900000	27.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	SuruiSGDP	Surui	Surui in Brazil (SGDP)	-11.000000	-62.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	PiapocoSGDP	Piapoco	Piapoco in Colombia (SGDP)	3.000000	-68.000000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	XiboSGDP	Xibo	Xibo in China (SGDP)	43.500000	81.500000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+GWF	GWF	Gambian Fula	Gambian in Western Division, The Gambia - Fula	13.454876	-16.579032	AFR	African Ancestry	#ffd845	1	Gambian Genome Variation Project (GRCh37),Gambian Genome Variation Project (GRCh38)
+	TujiaSGDP	Tujia	Tujia in China (SGDP)	29.000000	109.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	SheHGDP	She	She in China (HGDP)	27.000000	119.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	YorubaHGDP	Yoruba	Yoruba in Nigeria (HGDP)	8.000000	5.000000		Africa (HGDP)	#f2c2ff	6	Human Genome Diversity Project
+	UygurHGDP	Uygur	Uygur in China (HGDP)	44.000000	81.000000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	AdygeiSGDP	Adygei	Adygei in Russia(Caucasus) (SGDP)	44.000000	39.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	CreteSGDP	Crete	Crete in Greece (SGDP)	35.341846	25.148254		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	AleutSGDP	Aleut	Aleut in Russia (SGDP)	55.180000	166.000000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	BiakaHGDP	Biaka	Biaka in Central African Republic (HGDP)	4.000000	17.000000		Africa (HGDP)	#f2c2ff	6	Human Genome Diversity Project
+	MadigaSGDP	Madiga	Madiga in India (SGDP)	17.700000	83.300000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	HazaraHGDP	Hazara	Hazara in Pakistan (HGDP)	33.500000	70.000000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	SheSGDP	She	She in China (SGDP)	27.000000	119.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+STU	STU	Tamil	Sri Lankan Tamil in the UK	52.486243	-1.890401	SAS	South Asian Ancestry	#c44cfd	5	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+ITU	ITU	Telugu	Indian Telugu in the UK	52.486243	-1.890401	SAS	South Asian Ancestry	#c44cfd	5	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,Human Genome Structural Variation Consortium, Phase 3,1000 Genomes phase 3 release
+GWJ	GWJ	Gambian Jola	Gambian in Western Division, The Gambia - Jola	13.454876	-16.579032	AFR	African Ancestry	#ffd845	1	Gambian Genome Variation Project (GRCh37),Gambian Genome Variation Project (GRCh38)
+GBR	GBR	British	British in England and Scotland	52.486243	-1.890401	EUR	European Ancestry	#018ead	4	1000 Genomes on GRCh38,1000 Genomes 30x on GRCh38,Human Genome Structural Variation Consortium, Phase 2,1000 Genomes phase 3 release,1000 Genomes phase 1 release,Geuvadis
+	BrahuiHGDP	Brahui	Brahui in Pakistan (HGDP)	30.500000	66.500000		Central South Asia (HGDP)	#d8ffdf	8	Human Genome Diversity Project
+	CambodianHGDP	Cambodian	Cambodian in Cambodia (HGDP)	12.000000	105.000000		East Asia (HGDP)	#b35200	9	HGDP Transcriptome,Human Genome Diversity Project
+	DaiHGDP	Dai	Dai in China (HGDP)	21.000000	100.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	DruzeHGDP	Druze	Druze in Carmel, Israel (HGDP)	32.000000	35.000000		Middle East (HGDP)	#4e2100	11	Human Genome Diversity Project
+	SamaritanSGDP	Samaritan	Samaritan in Israel (SGDP)	32.200000	35.300000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	KalashSGDP	Kalash	Kalash in Pakistan (SGDP)	36.000000	71.500000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	TubalarSGDP	Tubalar	Tubalar in Russia (SGDP)	51.133333	87.000000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	NorthOssetianSGDP	North Ossetian	North Ossetian in Russia (SGDP)	43.000000	44.700000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	MendeSGDP	Mende	Mende in Sierra Leone (SGDP)	8.500000	-13.200000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	LezginSGDP	Lezgin	Lezgin in Russia (SGDP)	42.100000	48.200000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	BalochiSGDP	Balochi	Balochi in Pakistan (SGDP)	30.500000	66.500000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	KhomaniSanSGDP	Khomani San	Khomani San in South Africa (SGDP)	-27.000000	20.800000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	ZapotecSGDP	Zapotec	Zapotec in Mexico (SGDP)	16.500000	-97.200000		America (SGDP)	#310079	14	Simons Genome Diversity Project
+	CzechSGDP	Czech	Czech in Czechoslovakia(pre1989) (SGDP)	50.100000	14.400000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	LahuSGDP	Lahu	Lahu in China (SGDP)	22.000000	100.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	BasqueSGDP	Basque	Basque in France (SGDP)	43.000000	0.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	KhondaDoraSGDP	Khonda Dora	Khonda Dora in India (SGDP)	18.300000	82.900000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	EstonianSGDP	Estonian	Estonian in Estonia (SGDP)	58.500000	24.900000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+MKK	Masai	Masai	Masai in Kenya	-1.500000	35.200000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project,Human Genome Structural Variation Consortium, Phase 3
+	HezhenHGDP	Hezhen	Hezhen in China (HGDP)	47.500000	133.500000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	MandenkaHGDP	Mandenka	Mandenka in Senegal (HGDP)	12.000000	-12.000000		Africa (HGDP)	#f2c2ff	6	Human Genome Diversity Project
+	MongolianHGDP	Mongolian	Mongolian in China (HGDP)	48.500000	119.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	OrcadianHGDP	Orcadian	Orcadian in Orkney (HGDP)	59.000000	-3.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	RussianHGDP	Russian	Russian in Russia (HGDP)	61.000000	40.000000		Europe (HGDP)	#284600	10	Human Genome Diversity Project
+	AtayalSGDP	Atayal	Atayal in Taiwan (SGDP)	24.611712	121.296444		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	IrulaSGDP	Irula	Irula in India (SGDP)	13.500000	80.000000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	IcelandicSGDP	Icelandic	Icelandic in Iceland (SGDP)	64.100000	-21.900000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	BantuKenyaSGDP	Bantu Kenya	Bantu Kenya in Kenya (SGDP)	-3.000000	37.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	RelliSGDP	Relli	Relli in India (SGDP)	17.700000	83.300000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	SardinianSGDP	Sardinian	Sardinian in Italy (SGDP)	40.000000	9.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	DinkaSGDP	Dinka	Dinka in Sudan (SGDP)	8.794444	27.400000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	NaxiSGDP	Naxi	Naxi in China (SGDP)	26.000000	100.000000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	YiHGDP	Yi	Yi in China (HGDP)	28.000000	103.000000		East Asia (HGDP)	#b35200	9	Human Genome Diversity Project
+	BurushoSGDP	Burusho	Burusho in Pakistan (SGDP)	36.500000	74.000000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	MakraniSGDP	Makrani	Makrani in Pakistan (SGDP)	26.000000	64.000000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	SpanishSGDP	Spanish	Spanish in Spain (SGDP)	39.900000	-4.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	YemeniteJewSGDP	Yemenite Jew	Yemenite Jew in Yemen (SGDP)	15.400000	44.200000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	OroqenSGDP	Oroqen	Oroqen in China (SGDP)	50.400000	126.500000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	FrenchSGDP	French	French in France (SGDP)	46.000000	2.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	JordanianSGDP	Jordanian	Jordanian in Jordan (SGDP)	32.100000	35.900000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	SindhiSGDP	Sindhi	Sindhi in Pakistan (SGDP)	25.500000	69.000000		South Asia (SGDP)	#008c1e	18	Simons Genome Diversity Project
+	KinhSGDP	Kinh	Kinh in Vietnam (SGDP)	21.000000	105.900000		East Asia (SGDP)	#ff48de	16	Simons Genome Diversity Project
+	IranianSGDP	Iranian	Iranian in Iran (SGDP)	35.600000	51.500000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
+	ItelmanSGDP	Itelman	Itelman in Russia (SGDP)	57.000000	157.000000		Central Asia and Siberia (SGDP)	#01daa0	15	Simons Genome Diversity Project
+	EsanSGDP	Esan	Esan in Nigeria (SGDP)	6.500000	6.000000		Africa (SGDP)	#12eeff	13	Simons Genome Diversity Project
+	BergamoSGDP	Bergamo	Bergamo in Italy(Bergamo) (SGDP)	46.000000	10.000000		West Eurasia (SGDP)	#001f54	19	Simons Genome Diversity Project
