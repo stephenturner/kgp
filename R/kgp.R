@@ -56,9 +56,32 @@
 #'   \item{reg}{Short region code}
 #'   \item{population}{Long population description}
 #'   \item{region}{Long region description}
+#'   \item{regcolor}{Color for plotting this region on a map}
+#'   \item{lat}{Population latitude}
+#'   \item{lng}{Population longitude}
 #' }
 #' @source \url{http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/}
 #' @references Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios." Cell 185.18 (2022): 3426-3440.
 #' @references 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 #' @references License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
 "kgpmeta"
+
+#' 1000 Genomes, SGDP, HGDP, and GGVP metadata
+#'
+#' Fixme description
+#'
+#' @format A tibble with 212 rows and 8 columns fixme:
+#' \describe{
+#'   \item{pop}{Short population code}
+#'   \item{reg}{Short region code}
+#'   \item{population}{Long population description}
+#'   \item{region}{Long region description}
+#'   \item{regcolor}{Color for plotting this region on a map}
+#'   \item{lat}{Population latitude}
+#'   \item{lng}{Population longitude}
+#' }
+#' @source \url{https://www.internationalgenome.org/api/beta/population/_search/igsr_populations.tsv}
+#' @references Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios." Cell 185.18 (2022): 3426-3440.
+#' @references 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
+#' @references License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
+"allmeta"
