@@ -21,3 +21,11 @@ delayedAssign("kgpmeta", local({
     kgp:::kgpmeta
   }
 }))
+
+delayedAssign("allmeta", local({
+  if (requireNamespace("tibble", quietly = TRUE)) {
+    tibble::as_tibble(kgp:::allmeta)
+  } else {
+    kgp:::allmeta
+  }
+}))
