@@ -5,7 +5,7 @@
 \alias{allmeta}
 \title{1000 Genomes, SGDP, HGDP, and GGVP metadata}
 \format{
-A tibble with 212 rows and 8 columns fixme:
+A tibble with 212 rows and 8 columns:
 \describe{
   \item{pop}{Short population code}
   \item{reg}{Short region code}

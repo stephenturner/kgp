@@ -70,7 +70,7 @@
 #'
 #' Population metadata from 212 populations from the 1000 Genomes Project (kgp), Simons Genome Diversity Project (sgdp), Human Genome Diversity Project (hgdp), and Gambian Genome Variation Project (ggvp).
 #'
-#' @format A tibble with 212 rows and 8 columns fixme:
+#' @format A tibble with 212 rows and 8 columns:
 #' \describe{
 #'   \item{pop}{Short population code}
 #'   \item{reg}{Short region code}
