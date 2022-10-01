@@ -5,7 +5,7 @@
 \alias{kgpmeta}
 \title{1000 Genomes Project population metadata}
 \format{
-A tibble with 26 rows and 4 columns:
+A tibble with 26 rows and 7 columns:
 \describe{
   \item{pop}{Short population code}
   \item{reg}{Short region code}

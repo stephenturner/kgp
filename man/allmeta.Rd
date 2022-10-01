@@ -14,6 +14,7 @@ A tibble with 212 rows and 8 columns fixme:
   \item{regcolor}{Color for plotting this region on a map}
   \item{lat}{Population latitude}
   \item{lng}{Population longitude}
+  \item{dataset}{Which dataset (kgp = 1000 Genomes Project; ggvp = Gambian Genome Variation Project; hgdp = Human Genome Diversity Project; Simons Genome Diversity Project).}
 }
 }
 \source{
@@ -23,13 +24,15 @@ A tibble with 212 rows and 8 columns fixme:
 allmeta
 }
 \description{
-Fixme description
+Population metadata from 212 populations from the 1000 Genomes Project (kgp), Simons Genome Diversity Project (sgdp), Human Genome Diversity Project (hgdp), and Gambian Genome Variation Project (ggvp).
 }
 \references{
 Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios." Cell 185.18 (2022): 3426-3440.
 
 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 
-License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
+Clarke, Laura, et al. "The international Genome sample resource (IGSR): A worldwide collection of genome variation incorporating the 1000 Genomes Project data." Nucleic acids research 45.D1 (2017): D854-D859.
+
+License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}. The 1000 Genomes data is made publicly available according to the Fort Lauderdale Agreement (\url{https://www.genome.gov/Pages/Research/WellcomeReport0303.pdf}).
 }
 \keyword{datasets}
