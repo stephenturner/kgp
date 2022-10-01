@@ -98,7 +98,7 @@ allmeta <-
     "West Eurasia"="WEU",
     "Oceania"="OCE"))) %>%
   mutate(across(c(reg, region), str_remove_all, " \\([SH]GDP\\)")) %>%
-  mutate(across(everything(), trimws))
+  mutate(across(where(is.character), trimws))
 # Consolidate dataset names
 allmeta <-
   allmeta %>%
