@@ -7,6 +7,9 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/kgp)](https://CRAN.R-project.org/package=kgp)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![arXiv](https://img.shields.io/badge/arXiv-2210.00539-b31b1b.svg)](https://arxiv.org/abs/2210.00539)
 <!-- badges: end -->
 
 This kgp data package provides metadata about populations and data about
@@ -66,16 +69,16 @@ kgp3
 #> # A tibble: 2,504 × 10
 #>    fid     id      pid   mid     sex sexf   pop   reg   population        region
 #>    <chr>   <chr>   <chr> <chr> <int> <fct>  <chr> <chr> <chr>             <chr> 
-#>  1 HG00096 HG00096 0     0         1 male   GBR   EUR   British in Engla… Europ…
-#>  2 HG00097 HG00097 0     0         2 female GBR   EUR   British in Engla… Europ…
-#>  3 HG00099 HG00099 0     0         2 female GBR   EUR   British in Engla… Europ…
-#>  4 HG00100 HG00100 0     0         2 female GBR   EUR   British in Engla… Europ…
-#>  5 HG00101 HG00101 0     0         1 male   GBR   EUR   British in Engla… Europ…
-#>  6 HG00102 HG00102 0     0         2 female GBR   EUR   British in Engla… Europ…
-#>  7 HG00103 HG00103 0     0         1 male   GBR   EUR   British in Engla… Europ…
-#>  8 HG00105 HG00105 0     0         1 male   GBR   EUR   British in Engla… Europ…
-#>  9 HG00106 HG00106 0     0         2 female GBR   EUR   British in Engla… Europ…
-#> 10 HG00107 HG00107 0     0         1 male   GBR   EUR   British in Engla… Europ…
+#>  1 HG00096 HG00096 0     0         1 male   GBR   EUR   British in Engla… Europe
+#>  2 HG00097 HG00097 0     0         2 female GBR   EUR   British in Engla… Europe
+#>  3 HG00099 HG00099 0     0         2 female GBR   EUR   British in Engla… Europe
+#>  4 HG00100 HG00100 0     0         2 female GBR   EUR   British in Engla… Europe
+#>  5 HG00101 HG00101 0     0         1 male   GBR   EUR   British in Engla… Europe
+#>  6 HG00102 HG00102 0     0         2 female GBR   EUR   British in Engla… Europe
+#>  7 HG00103 HG00103 0     0         1 male   GBR   EUR   British in Engla… Europe
+#>  8 HG00105 HG00105 0     0         1 male   GBR   EUR   British in Engla… Europe
+#>  9 HG00106 HG00106 0     0         2 female GBR   EUR   British in Engla… Europe
+#> 10 HG00107 HG00107 0     0         1 male   GBR   EUR   British in Engla… Europe
 #> # … with 2,494 more rows
 #> # ℹ Use `print(n = ...)` to see more rows
 ```
@@ -89,16 +92,16 @@ kgpe
 #> # A tibble: 3,202 × 11
 #>    fid     id      pid   mid     sex sexf   pop   reg   population region phase3
 #>    <chr>   <chr>   <chr> <chr> <int> <fct>  <chr> <chr> <chr>      <chr>  <lgl> 
-#>  1 HG00096 HG00096 0     0         1 male   GBR   EUR   British i… Europ… TRUE  
-#>  2 HG00097 HG00097 0     0         2 female GBR   EUR   British i… Europ… TRUE  
-#>  3 HG00099 HG00099 0     0         2 female GBR   EUR   British i… Europ… TRUE  
-#>  4 HG00100 HG00100 0     0         2 female GBR   EUR   British i… Europ… TRUE  
-#>  5 HG00101 HG00101 0     0         1 male   GBR   EUR   British i… Europ… TRUE  
-#>  6 HG00102 HG00102 0     0         2 female GBR   EUR   British i… Europ… TRUE  
-#>  7 HG00103 HG00103 0     0         1 male   GBR   EUR   British i… Europ… TRUE  
-#>  8 HG00105 HG00105 0     0         1 male   GBR   EUR   British i… Europ… TRUE  
-#>  9 HG00106 HG00106 0     0         2 female GBR   EUR   British i… Europ… TRUE  
-#> 10 HG00107 HG00107 0     0         1 male   GBR   EUR   British i… Europ… TRUE  
+#>  1 HG00096 HG00096 0     0         1 male   GBR   EUR   British i… Europe TRUE  
+#>  2 HG00097 HG00097 0     0         2 female GBR   EUR   British i… Europe TRUE  
+#>  3 HG00099 HG00099 0     0         2 female GBR   EUR   British i… Europe TRUE  
+#>  4 HG00100 HG00100 0     0         2 female GBR   EUR   British i… Europe TRUE  
+#>  5 HG00101 HG00101 0     0         1 male   GBR   EUR   British i… Europe TRUE  
+#>  6 HG00102 HG00102 0     0         2 female GBR   EUR   British i… Europe TRUE  
+#>  7 HG00103 HG00103 0     0         1 male   GBR   EUR   British i… Europe TRUE  
+#>  8 HG00105 HG00105 0     0         1 male   GBR   EUR   British i… Europe TRUE  
+#>  9 HG00106 HG00106 0     0         2 female GBR   EUR   British i… Europe TRUE  
+#> 10 HG00107 HG00107 0     0         1 male   GBR   EUR   British i… Europe TRUE  
 #> # … with 3,192 more rows
 #> # ℹ Use `print(n = ...)` to see more rows
 ```
@@ -108,20 +111,20 @@ five continental regions.
 
 ``` r
 kgpmeta
-#> # A tibble: 26 × 4
-#>    pop   population                          reg   region     
-#>    <chr> <chr>                               <chr> <chr>      
-#>  1 CDX   Chinese Dai in Xishuangbanna, China EAS   East Asian 
-#>  2 CHB   Han Chinese in Bejing, China        EAS   East Asian 
-#>  3 JPT   Japanese in Tokyo, Japan            EAS   East Asian 
-#>  4 KHV   Kinh in Ho Chi Minh City, Vietnam   EAS   East Asian 
-#>  5 CHS   Southern Han Chinese, China         EAS   East Asian 
-#>  6 BEB   Bengali in Bangladesh               SAS   South Asian
-#>  7 GIH   Gujarati Indian in Houston,TX       SAS   South Asian
-#>  8 ITU   Indian Telugu in the UK             SAS   South Asian
-#>  9 PJL   Punjabi in Lahore,Pakistan          SAS   South Asian
-#> 10 STU   Sri Lankan Tamil in the UK          SAS   South Asian
-#> # … with 16 more rows
+#> # A tibble: 26 × 7
+#>    pop   population                          reg   region   regco…¹   lat    lng
+#>    <chr> <chr>                               <chr> <chr>    <chr>   <dbl>  <dbl>
+#>  1 CDX   Chinese Dai in Xishuangbanna, China EAS   East As… #778500  22   101.  
+#>  2 CHB   Han Chinese in Bejing, China        EAS   East As… #778500  39.9 116.  
+#>  3 JPT   Japanese in Tokyo, Japan            EAS   East As… #778500  35.7 140.  
+#>  4 KHV   Kinh in Ho Chi Minh City, Vietnam   EAS   East As… #778500  10.8 107.  
+#>  5 CHS   Southern Han Chinese, China         EAS   East As… #778500  23.1 113.  
+#>  6 BEB   Bengali in Bangladesh               SAS   South A… #c44cfd  23.7  90.4 
+#>  7 GIH   Gujarati Indian in Houston,TX       SAS   South A… #c44cfd  29.8 -95.4 
+#>  8 ITU   Indian Telugu in the UK             SAS   South A… #c44cfd  52.5  -1.89
+#>  9 PJL   Punjabi in Lahore,Pakistan          SAS   South A… #c44cfd  31.6  74.4 
+#> 10 STU   Sri Lankan Tamil in the UK          SAS   South A… #c44cfd  52.5  -1.89
+#> # … with 16 more rows, and abbreviated variable name ¹​regcolor
 #> # ℹ Use `print(n = ...)` to see more rows
 ```
 
@@ -138,31 +141,31 @@ data(kgp)
 kgp3 %>% 
   count(region)
 #> # A tibble: 5 × 2
-#>   region          n
-#>   <chr>       <int>
-#> 1 African       661
-#> 2 American      347
-#> 3 East Asian    504
-#> 4 European      503
-#> 5 South Asian   489
+#>   region         n
+#>   <chr>      <int>
+#> 1 Africa       661
+#> 2 America      347
+#> 3 East Asia    504
+#> 4 Europe       503
+#> 5 South Asia   489
 ```
 
 ``` r
 kgp3 %>% 
   count(region, population)
 #> # A tibble: 26 × 3
-#>    region   population                                      n
-#>    <chr>    <chr>                                       <int>
-#>  1 African  African Ancestry in Southwest US               61
-#>  2 African  African Caribbean in Barbados                  96
-#>  3 African  Esan in Nigeria                                99
-#>  4 African  Gambian in Western Division, The Gambia       113
-#>  5 African  Luhya in Webuye, Kenya                         99
-#>  6 African  Mende in Sierra Leone                          85
-#>  7 African  Yoruba in Ibadan, Nigeria                     108
-#>  8 American Colombian in Medellin, Colombia                94
-#>  9 American Mexican Ancestry in Los Angeles, California    64
-#> 10 American Peruvian in Lima, Peru                         85
+#>    region  population                                      n
+#>    <chr>   <chr>                                       <int>
+#>  1 Africa  African Ancestry in Southwest US               61
+#>  2 Africa  African Caribbean in Barbados                  96
+#>  3 Africa  Esan in Nigeria                                99
+#>  4 Africa  Gambian in Western Division, The Gambia       113
+#>  5 Africa  Luhya in Webuye, Kenya                         99
+#>  6 Africa  Mende in Sierra Leone                          85
+#>  7 Africa  Yoruba in Ibadan, Nigeria                     108
+#>  8 America Colombian in Medellin, Colombia                94
+#>  9 America Mexican Ancestry in Los Angeles, California    64
+#> 10 America Peruvian in Lima, Peru                         85
 #> # … with 16 more rows
 #> # ℹ Use `print(n = ...)` to see more rows
 ```
