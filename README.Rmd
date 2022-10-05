@@ -81,14 +81,18 @@ library(kgp)
 data(kgp)
 ```
 
+Count the number of samples in each region, or in each population: 
+
 ```{r}
 kgp3 %>% 
-  count(region)
+  count(region) %>% 
+  knitr::kable(caption="Counts of samples in each continental region.")
 ```
 
 ```{r}
 kgp3 %>% 
-  count(region, population)
+  count(region, population) %>% 
+  knitr::kable(caption="Counts of samples in each population.")
 ```
 
 ```{r kgp3barplot, fig.width=9, fig.height=12}
@@ -102,4 +106,49 @@ kgp3 %>%
   coord_flip() + 
   theme_bw() + 
   theme(legend.position="bottom")
+```
+
+The latitude and longitude coordinates in `kgpmeta` can be used to plot a map of the locations of the 1000 Genomes populations. There is also a column for region color, which provides a hexadecimal color code to enable reproduction of the population data map as shown on the IGSR population data page (<https://www.internationalgenome.org/data-portal/population>). The figure below shows a static map produced using ggplot2, but interactive maps such as that shown on the IGSR population data portal can be created with the leaflet package.
+
+```{r kgpmap, fig.cap="Map showing locations of the 1000 Genomes Phase 3 populations.", fig.width=8, fig.height=6}
+pal <- kgpmeta %>% distinct(reg, regcolor) %>% tibble::deframe()
+ggplot() + 
+  geom_polygon(data=map_data("world"), 
+               aes(long, lat, group=group), 
+               col="gray30", fill="gray95", lwd=.2, alpha=.5) + 
+  geom_point(data=kgpmeta, aes(lng, lat, col=reg), size=4) + 
+  scale_colour_manual(values=pal) +
+  theme_minimal() + 
+  theme(axis.ticks = element_blank(), 
+        axis.text = element_blank(), 
+        axis.title = element_blank(), 
+        legend.title = element_blank(),
+        panel.grid = element_blank(),
+        legend.position = "bottom")
+```
+
+The table below shows a selection of samples from `kgpe` showing pedigree information for each sample. This pedigree information could be used in downstream analysis to filter out related individuals, select only trios, or to visualize family structure.
+
+```{r kgpe}
+kgpe %>% 
+  filter(pid!="0" & mid!="0") %>% 
+  group_by(pop) %>% 
+  slice(1) %>% 
+  head(12) %>% 
+  arrange(reg, pop) %>% 
+  select(fid:reg) %>% 
+  select(-sexf) %>% 
+  knitr::kable(caption="Samples from the expanded 1000 Genomes set showing pedigree information which can be used for pedigree analysis and visualization.")
+```
+
+The figure below shows an example of a pedigree plot made by parsing the pedigree information using [skater](https://cran.r-project.org/package=skater) and plotting using [kinship2](https://cran.r-project.org/package=kinship2). The skater package provides documentation, examples, and a vignette demonstrating how to iteratively plot all pedigrees in a given data set.
+
+```{r pedplot, fig.height=5, fig.width=8, fig.cap="Trios in 1000 Genomes Project family 13291."}
+kgpe %>% 
+  filter(fid=="13291") %>% 
+  transmute(fid, id, dadid=pid, momid=mid, sex, affected=1) %>% 
+  skater::fam2ped() %>% 
+  pull(ped) %>% 
+  purrr::pluck(1) %>% 
+  kinship2::plot.pedigree(mar=c(4,2,4,2), cex=.8)
 ```
