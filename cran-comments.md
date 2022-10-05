@@ -2,8 +2,6 @@
 
 0 errors | 0 warnings | 0 notes
 
-- This is a new release.
-
 ## Test environments
 
 - Local R installation, R 4.2.0
