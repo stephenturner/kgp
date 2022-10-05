@@ -67,7 +67,7 @@ kgp3 <-
 # Verify that there are no relatives
 stopifnot(nrow(filter(kgp3, mid %in% kgp3$id | pid %in% kgp3$id))==0L)
 
-# From https://www.internationalgenome.org/api/beta/population/_search/igsr_populations.tsv
+# From internationalgenome.org/api/beta/population/_search/igsr_populations.tsv
 allmeta <-
   read_tsv(here::here("inst/extdata/igsr_populations.tsv"), col_types="ccccddcccic") %>%
   janitor::clean_names()

@@ -207,11 +207,9 @@ The latitude and longitude coordinates in `kgpmeta` can be used to plot
 a map of the locations of the 1000 Genomes populations. There is also a
 column for region color, which provides a hexadecimal color code to
 enable reproduction of the population data map as shown on the IGSR
-population data page
-(<https://www.internationalgenome.org/data-portal/population>). The
-figure below shows a static map produced using ggplot2, but interactive
-maps such as that shown on the IGSR population data portal can be
-created with the leaflet package.
+population data page. The figure below shows a static map produced using
+ggplot2, but interactive maps such as that shown on the IGSR population
+data portal can be created with the leaflet package.
 
 ``` r
 pal <- kgpmeta %>% distinct(reg, regcolor) %>% tibble::deframe()

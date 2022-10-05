@@ -81,7 +81,6 @@
 #'   \item{lng}{Population longitude}
 #'   \item{dataset}{Which dataset (kgp = 1000 Genomes Project; ggvp = Gambian Genome Variation Project; hgdp = Human Genome Diversity Project; Simons Genome Diversity Project).}
 #' }
-#' @source \url{https://www.internationalgenome.org/api/beta/population/_search/igsr_populations.tsv}
 #' @references Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios." Cell 185.18 (2022): 3426-3440.
 #' @references 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 #' @references Clarke, Laura, et al. "The international Genome sample resource (IGSR): A worldwide collection of genome variation incorporating the 1000 Genomes Project data." Nucleic acids research 45.D1 (2017): D854-D859.

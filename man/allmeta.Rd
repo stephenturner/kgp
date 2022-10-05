@@ -17,9 +17,6 @@ A tibble with 212 rows and 8 columns:
   \item{dataset}{Which dataset (kgp = 1000 Genomes Project; ggvp = Gambian Genome Variation Project; hgdp = Human Genome Diversity Project; Simons Genome Diversity Project).}
 }
 }
-\source{
-\url{https://www.internationalgenome.org/api/beta/population/_search/igsr_populations.tsv}
-}
 \usage{
 allmeta
 }
