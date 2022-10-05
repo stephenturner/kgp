@@ -142,7 +142,7 @@ Count the number of samples in each region, or in each population:
 ``` r
 kgp3 %>% 
   count(region) %>% 
-  knitr::kable(caption="Counts of samples in each continental region.")
+  knitr::kable()
 ```
 
 | region     |   n |
@@ -153,12 +153,10 @@ kgp3 %>%
 | Europe     | 503 |
 | South Asia | 489 |
 
-Counts of samples in each continental region.
-
 ``` r
 kgp3 %>% 
   count(region, population) %>% 
-  knitr::kable(caption="Counts of samples in each population.")
+  knitr::kable()
 ```
 
 | region     | population                                                 |   n |
@@ -189,8 +187,6 @@ kgp3 %>%
 | South Asia | Indian Telugu in the UK                                    | 102 |
 | South Asia | Punjabi in Lahore,Pakistan                                 |  96 |
 | South Asia | Sri Lankan Tamil in the UK                                 | 102 |
-
-Counts of samples in each population.
 
 ``` r
 kgp3 %>% 
@@ -250,7 +246,7 @@ kgpe %>%
   arrange(reg, pop) %>% 
   select(fid:reg) %>% 
   select(-sexf) %>% 
-  knitr::kable(caption="Samples from the expanded 1000 Genomes set showing pedigree information which can be used for pedigree analysis and visualization.")
+  knitr::kable()
 ```
 
 | fid    | id      | pid     | mid     | sex | pop | reg |
@@ -267,9 +263,6 @@ kgpe %>%
 | IBS001 | HG01502 | HG01500 | HG01501 |   1 | IBS | EUR |
 | BD01   | HG03008 | HG03006 | HG03007 |   1 | BEB | SAS |
 | IT002  | HG03719 | HG03725 | HG03722 |   2 | ITU | SAS |
-
-Samples from the expanded 1000 Genomes set showing pedigree information
-which can be used for pedigree analysis and visualization.
 
 The figure below shows an example of a pedigree plot made by parsing the
 pedigree information using
