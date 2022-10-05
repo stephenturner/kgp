@@ -8,4 +8,8 @@ wget -Nq http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/integrated_c
 wget -Nq http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/integrated_call_samples_v3.20130502.ALL.panel
 wget -Nq http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/20140625_related_individuals.txt
 wget -Nq http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/20130606_g1k_3202_samples_ped_population.txt
+
+# This doesn't work. Need to go to https://www.internationalgenome.org/data-portal/population to download.
+# curl -kO http://www.internationalgenome.org/api/beta/population/_search/igsr_populations.tsv
 ```
+

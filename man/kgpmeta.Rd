@@ -5,12 +5,15 @@
 \alias{kgpmeta}
 \title{1000 Genomes Project population metadata}
 \format{
-A tibble with 26 rows and 4 columns:
+A tibble with 26 rows and 7 columns:
 \describe{
   \item{pop}{Short population code}
   \item{reg}{Short region code}
   \item{population}{Long population description}
   \item{region}{Long region description}
+  \item{regcolor}{Color for plotting this region on a map}
+  \item{lat}{Population latitude}
+  \item{lng}{Population longitude}
 }
 }
 \source{
@@ -27,6 +30,6 @@ Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expan
 
 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 
-License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
+License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}. The 1000 Genomes data is made publicly available according to the Fort Lauderdale Agreement (\url{https://www.genome.gov/Pages/Research/WellcomeReport0303.pdf}).
 }
 \keyword{datasets}

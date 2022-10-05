@@ -34,6 +34,6 @@ Byrska-Bishop, Marta, et al. "High-coverage whole-genome sequencing of the expan
 
 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 
-License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}.
+License information is available at \url{https://github.com/igsr/1000Genomes_data_indexes/blob/master/LICENSE}. The 1000 Genomes data is made publicly available according to the Fort Lauderdale Agreement (\url{https://www.genome.gov/Pages/Research/WellcomeReport0303.pdf}).
 }
 \keyword{datasets}
