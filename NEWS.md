@@ -1,3 +1,7 @@
+# kgp 1.1.1
+
+- Fix typo ("Bejing" to "Beijing")
+
 # kgp 1.1.0
 
 - Added new `allmeta` tibble with population and region metadata for populations in the 1000 Genomes Project (kgp), Simons Genome Diversity Project (sgdp), Human Genome Diversity Project (hgdp), and Gambian Genome Variation Project (ggvp)
