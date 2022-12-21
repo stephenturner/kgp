@@ -1,8 +1,8 @@
-pandoc: 2.14.2
-pkgdown: 2.0.6
+pandoc: 2.19.2
+pkgdown: 2.0.7
 pkgdown_sha: ~
 articles: {}
-last_built: 2022-10-06T11:33Z
+last_built: 2022-12-21T11:19Z
 urls:
   reference: https://stephenturner.github.io/kgp/reference
   article: https://stephenturner.github.io/kgp/articles
