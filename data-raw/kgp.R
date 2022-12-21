@@ -29,6 +29,11 @@ kgpmeta <-
     "^European$"="Europe",
     "^South Asian$"="South Asia"
   )))
+# Fix typos
+kgpmeta$population <-
+  kgpmeta$population %>%
+  gsub("Bejing", "Beijing", .) %>%
+  gsub(",([A-Za-z])", ", \\1", .)
 
 
 # Get the Ped file from the 3202 sample set
